@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafbfc;
+
+}
+header {
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 1px solid #ccc;
+    outline: 0;
+}
+
+button {
+    border: 0px;
+    padding: 10px;
+    outline: 0;
+    background-color: gray;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.5s;
+}
+
+button:hover {
+    background-color: rgb(85, 84, 84);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+table th {
+    background-color: #ccc;
+    text-align: left;
+    padding: 1px 5px;
+}
+
+table td {
+    text-align: left;
+    padding: 1px 5px;
+}
+
+table td img {
+    width: 20px;
+}
+
+.center {
+    text-align: center;
+}
